@@ -1,0 +1,38 @@
+processTime: 08-06-22
+report:
+  reportId: 34lkn34l5k
+  reportVersion: '1'
+  reportDeveloper: dev1
+  reportDomain: ''
+  linkedDataset: dataset
+  filters:
+    -
+      filterId: Filtera1
+      table: DIM_E
+      column: CLIENT
+      type: Categorical
+      metadata:
+        label: Company
+        tags: []
+    -
+      filterId: Filter2
+      table: DIM_E
+      column: DEPARTMENT
+      type: Categorical
+      metadata:
+          label: Department
+          tags: []
+pages:
+  pageId: ReportSection
+  displayName: test
+  visuals:
+    visualId: 9dc8
+    visualType: donutChart
+    measures: Headcount
+    columns: "- EMPLO"
+    title: Headcount
+    metadata:
+      label: ''
+      tags: []
+      domain: diversity
+      hierarchy: []
